@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableTarefas extends Migration
+class CreateTarefasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -21,17 +21,11 @@ class CreateTableTarefas extends Migration
             $table->String('descricao');
             $table->String('tipo');
             $table->String('status');
-            $table->String('data');
-            
-          
+            $table->String('data');            
         });
     }
 
     /**
-        
-    
-
-    
      * Reverse the migrations.
      *
      * @return void

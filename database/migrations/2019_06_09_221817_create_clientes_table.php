@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableClientes extends Migration
+class CreateClientesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -21,7 +21,7 @@ class CreateTableClientes extends Migration
             $table->String('telefone');
             $table->String('dataNascimento');
             $table->String('login');
-            $table->String('senha');
+            $table->String('senha');            
         });
     }
 

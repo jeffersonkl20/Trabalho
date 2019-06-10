@@ -21,8 +21,8 @@ Route::post('/tare','TarefaController@adicionar');
 Route::get('/clie','ClienteController@index');
 Route::post('/clie','ClienteController@adicionar');
 
-Route::get('/tipo','TipoTarefaController@index');
-Route::post('/tipo','TipoTarefaController@adicionar');
+Route::get('/tipu','TipoTarefaController@index');
+Route::post('/tipu','TipoTarefaController@adicionar');
 
 Route::get('/home', function () {
     return view('home');

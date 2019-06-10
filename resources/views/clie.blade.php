@@ -37,11 +37,11 @@
                </div>
                <div class="form-group">
                  <label for="exampleInputPassword1">telefone</label>
-                 <input type="number" class="form-control" name="telefone_form"required >
+                 <input type="text" class="form-control" name="telefone_form"required >
                </div>
                <div class="form-group">
                  <label for="exampleInputPassword1">dataNascimento</label>
-                 <input type="number" class="form-control" name="dataNascimento_form" required>
+                 <input type="text" class="form-control" name="dataNascimento_form" required>
                </div>
                <div class="form-group">
                  <label for="exampleInputPassword1">login</label>

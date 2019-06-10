@@ -134,7 +134,7 @@ return [
         [
 
             'text'        => 'Tipos de Tarefas ', 
-            'url'         => 'tipo',
+            'url'         => 'tipu',
             'icon'        => 'line-chart',
 
 

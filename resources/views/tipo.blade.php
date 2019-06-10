@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'Tarefas Diarias')
+@section('title', 'Tipo de Tarefas')
 
 @section('content_header')
-    <h1> Aqui Estao suas Tarefas Diarias  !</h1>
+    <h1> Tipo de Tarefas </h1>
 @stop
 
 @section('content')
@@ -13,19 +13,23 @@
 
          <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Cadastro Tipos De Tarefas </h3>
+              <h3 class="box-title">Cadastro de Tipo de Tarefas </h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->
             <form role="form" method="POST">
               <div class="box-body">
+
                 {{ csrf_field() }}
+                
                 <div class="form-group">
                   <label for="exampleInputEmail1">nome</label>
-                  <input type="text" class="form-control" nome="nome_form" required>
-                              <!-- /.box-body -->
+                  <input type="text" class="form-control" name="nome_form" >
+                </div>                
+                
+              <!-- /.box-body -->
               <div class="box-footer">
-                <button type="submit" class="btn btn-primary">Salvar Tarefa </button>
+                <button type="submit" class="btn btn-primary">Salvar</button>
               </div>
             </form>
           </div>

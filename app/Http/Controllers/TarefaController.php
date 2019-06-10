@@ -27,7 +27,7 @@ class TarefaController extends Controller
             $tarefa->status = $request->status_form;
             $tarefa->data = $request->data_form;
 
-              $tarefa->save();
+            $tarefa->save();
     }
 
 }   

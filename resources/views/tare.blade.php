@@ -33,7 +33,7 @@
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">privacidade</label>
-                  <input type="text" class="form-control" name="Privacidade_form"required>
+                  <input type="text" class="form-control" name="privacidade_form"required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">descricao</label>
@@ -49,7 +49,7 @@
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">data</label>
-                  <input type="number" class="form-control" name="data_form"required >
+                  <input type="text" class="form-control" name="data_form"required >
                 </div>
                 
               <!-- /.box-body -->

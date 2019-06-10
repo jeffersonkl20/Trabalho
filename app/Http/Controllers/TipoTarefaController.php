@@ -3,26 +3,22 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Tipo_Tarefa;
+use App\TipoTarefa;
 
 class TipoTarefaController extends Controller
 {
+
     public function index() {
 
         return view('tipo');
     }
-    
-    public function adicionar(Request $request){
 
-       // dd($request->all());
+    public function adicionar (Request $request) {
 
-       $tipos_tarefas = new Tipo_Tarefa;
+        $tipo_tarefa = new TipoTarefa;
 
+        $tipo_tarefa->nome = $request->nome_form;
 
-    
-       $tipos_tarefas->nome = $request->nome_form;
-
-         $tipos_tarefas->save();
- 
+        $tipo_tarefa->save();
     }
 }

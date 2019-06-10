@@ -27,7 +27,6 @@ class ClienteController extends Controller
        $cliente->senha = $request->senha_form;
 
         $cliente->save();
-       
+    } 
 
-    }
 }
